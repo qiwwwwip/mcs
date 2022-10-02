@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background:
+    
+    linear-gradient( #E4E3E4 50%,transparent),
+    linear-gradient(to left, #F87232 50%, transparent),
+    linear-gradient(to right, #C52CD9 50%,transparent);
+}
+.fut {
+    padding: 100px;
+   }
+
+  
+
+
+
+@media only screen and (max-width: 450px) {
+
+    header {
+        font-family: 'Comfortaa', cursive;
+        font-style: medium;
+    
+        
+        width: 100%;
+        padding-bottom: 30px;
+        
+        
+        background-color: #E4E3E4;
+    
+        position: fixed;
+    }
+
+    .menu > li {
+        text-align: right;
+        padding-right: 70px;
+    }
+    header h1 {
+        padding-top: 100px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .photo {
+        width: 300px;
+    } 
+    .photo img {
+        object-fit: cover;
+        width: 100% ;
+    }
+
+    .kir {
+        width: 300px;
+        padding-bottom: 100px;
+    }
+   .negroni {
+        width: 300px;
+        padding-bottom: 100px;
+    }
+    .white-rus {
+        width: 300px;
+        padding-bottom: 100px;
+    }
+
+    .coct {
+
+
+        padding-top: 300px;
+        
+        font-family: 'Comfortaa', cursive;
+        font-style: light;
+        text-align: justify;  
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    article ul {
+        margin: 20px 20px 20px 15px;
+    }  
+   
+}
+
+@media only screen and (min-width: 961px) {
+
+    .menu {
+        text-align: right;
+    }
+    .menu > li {
+        display: inline;
+        padding-right: 50px ;
+        text-align: right;
+    }
+    header {
+        font-family: 'Comfortaa', cursive;
+        font-style: medium;
+    
+        margin: 0px;
+        padding-top: 50px;
+        width: 100%;
+        
+        
+        background-color: #E4E3E4;
+                    
+    
+        position: fixed;
+        
+        display: flex;
+        justify-content: space-between;
+        }
+    
+    header h1 {
+        padding-left: 50px;
+        padding-bottom: 10px;
+        }
+    article h1 {
+        margin: 20px 20px 20px 0px;
+        }
+            
+    article ul {
+        margin: 20px 20px 20px 15px;
+        } 
+    picture {
+        
+        
+        width: 400px;
+    }     
+    .negroni {
+        width: 400px;
+    }
+
+    .white-rus {
+        width: 400px;
+    }
+
+    .kir {
+        width: 400px;
+    }
+
+
+    .coct {
+        
+
+        padding-top: 200px;
+        
+        font-family: 'Comfortaa', cursive;
+        font-style: light;
+    
+        display: flex;
+        justify-content: space-around;
+        
+        text-align: justify;
+    }
+    .photo {
+        width: 400px;
+    }
+    .photo img {
+        object-fit: cover;
+        width: 100%
+        
+    }
+    
+    
+  
+}
+
