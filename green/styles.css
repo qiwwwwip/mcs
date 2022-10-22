@@ -1,0 +1,52 @@
+:root {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit; 
+}
+    
+body {
+    font-family: Comfortaa;
+}
+
+.menu {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    justify-content: center;
+    list-style-type: none;
+    
+}
+
+.menu > li {
+    padding: 2em;
+}
+
+header > h1 {
+    display: flex;
+    box-sizing: border-box;
+    height: 1000px;
+   background-image: url(media/home-page.jpeg); 
+   background-attachment: fixed;
+
+
+background-position: auto;
+
+
+background-repeat: no-repeat;
+
+
+background-size: cover;
+align-items: center;
+justify-content: center;
+padding: 100px;
+    
+    
+   
+    
+    
+
+}
